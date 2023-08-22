@@ -3,17 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Ajout du meta description-->
 	<meta name="description" content="Nina Carducci photographe, retouches photos, shooting et album photos">
 
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 
+	<!-- Ajout du titre -->
 	<title>Nina Carducci - Photographe</title>
 
-	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
+	<!-- Ajout "defer" pour charger les script à la fin -->
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
 	<script src="./assets/maugallery.js" defer></script>
 	<script src="./assets/scripts.js" defer></script>
@@ -35,7 +35,7 @@
 </header>
 
 <main>
-	<div id="header">
+	<section id="header">
 		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-indicators">
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -44,6 +44,7 @@
 			</div>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
+					<!-- Ajout des "alt" sur toutes les images -->
 					<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" class="d-block w-100" alt="Ryoji Iwata">
 				</div>
 				<div class="carousel-item">
@@ -62,9 +63,9 @@
 				<span class="visually-hidden">Next</span>
 			</button>
 		</div>
-	</div>
+	</section>
 
-	<div id="about">
+	<section id="about">
 		<div class="picture left">
 			<img src="./assets/images/nina.webp" alt="Nina Carducci">
 		</div>
@@ -74,9 +75,9 @@
 			<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 				C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 		</div>
-	</div>
+	</section>
 
-	<div id="gallery">
+	<section id="gallery">
 		<h2 class="title">Portfolio</h2>
 		<div class="container py-3">
 			<div class="gallery">
@@ -97,9 +98,9 @@
 				<footer class="quote__author">- Richard Avedon</footer>
 			</blockquote>
 		</div>
-	</div>
+	</section>
 
-	<div id="services">
+	<section id="services">
 		<h2 class="title">Mes services</h2>
 		<div class="container">
 			<div class="service">
@@ -133,13 +134,13 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
 	<div class="quote">
-			<blockquote>
-				<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
-				<footer class="quote__author">- Richard Avedon</footer>
-			</blockquote>
+		<blockquote>
+			<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
+			<footer class="quote__author">- Richard Avedon</footer>
+		</blockquote>
 	</div>
 
 	<div id="contact">
