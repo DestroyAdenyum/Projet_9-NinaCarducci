@@ -3,14 +3,51 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<!--Ajout du meta description-->
-	<meta name="description" content="Nina Carducci photographe, retouches photos, shooting et album photos">
+	<meta name="description" content="Nina Carducci photographe à Bordeaux : retouches photos, shooting et album photos">
 
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.css">
 
 	<!-- Ajout du titre -->
 	<title>Nina Carducci - Photographe</title>
+
+	<!-- Facebook : Open Graph data -->
+	<meta property="og:title" content="Nina Carducci"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:url" content="https://ninacarducci.github.io/"/>
+	<meta property="og:image" content="https://ninacarducci.github.io/assets/images/nina.webp"/>
+	<meta property="og:description" content="Nina Carducci photographe à Bordeaux : retouches photos, shooting et album photos"/>
+
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@nina_carducci">
+	<meta name="twitter:title" content="Nina Carducci">
+	<meta name="twitter:description" content="Nina Carducci photographe à Bordeaux : retouches photos, shooting et album photos">
+	<meta name="twitter:creator" content="@nina_carducci">
+	<meta name="twitter:image" content="https://ninacarducci.github.io/assets/images/nina.webp">
+
+	<!-- Schema.org : référencement local -->
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "LocalBusiness",
+		  "address": {
+			"@type": "PostalAddress",
+			"addressLocality": "Bordeaux",
+			"addressRegion": "FR",
+			"postalCode": "33200",
+			"streetAddress": "68 avenue Alsace-Lorraine"
+		  },
+		  "name": "Nina Carducci",
+		  "openingHours": [
+			"Mo-Fr 10:00-19:00"
+		  ],
+		  "telephone": "+33(0)5 56 67 78 89",
+		  "url": "https://ninacarducci.github.io/"
+		}
+		</script>
 
 	<!-- Ajout "defer" pour charger les script à la fin -->
 	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
@@ -94,7 +131,7 @@
 		</div>
 		<div class="quote">
 			<blockquote>
-				<p class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</p>
+				<h3 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h3>
 				<footer class="quote__author">- Richard Avedon</footer>
 			</blockquote>
 		</div>
@@ -138,7 +175,7 @@
 
 	<div class="quote">
 		<blockquote>
-			<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
+			<h3 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h3>
 			<footer class="quote__author">- Richard Avedon</footer>
 		</blockquote>
 	</div>
